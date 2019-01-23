@@ -10,17 +10,18 @@ namespace task2
 
 
 
-            for (int i = 0; i < 11; i++)
+            for (int i = 0; i < 9; i++)
             {
 
                 if (sa[i]<10) {
-                    Console.WriteLine(sa[i]+" Lower that 10" );
+                    Console.WriteLine(sa[i]+" Lower than 10" );
                 }
                 else {
-                    Console.WriteLine(sa[i]+" Greater  that 10");
+                    Console.WriteLine(sa[i]+" Greater  than 10");
                 }
 
             }
+           Console.ReadKey();
         }
     }
 }
